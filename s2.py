@@ -33,6 +33,11 @@
 #     print("hello saeed")
 # else: print("hello guest")
 a=int(input())
+
+name = input()
+age = int(input())
+if (name == "ali" and age > 30) or (name != "ali" and age < 20): print("ok")
+else: print("no")
 b=int(input())
 c=int(input())
 
