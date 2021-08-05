@@ -32,6 +32,14 @@
 # elif name4 == 'saeed':
 #     print("hello saeed")
 # else: print("hello guest")
+a=int(input())
+b=int(input())
+c=int(input())
+
+if a+b>c and a+c>b and b+c>a:
+  print("yes")
+else: print("no")
+
 
 # n1 =int(input('pls enter num1:'))
 # n2 =int(input('pls enter num2:'))
