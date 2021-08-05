@@ -33,11 +33,6 @@
 #     print("hello saeed")
 # else: print("hello guest")
 a=int(input())
-
-name = input()
-age = int(input())
-if (name == "ali" and age > 30) or (name != "ali" and age < 20): print("ok")
-else: print("no")
 b=int(input())
 c=int(input())
 
@@ -62,3 +57,7 @@ else: print("no")
 #     n4=n1 / n2
 #     print(n4)
 # else: print("invalid")
+name = input()
+age = int(input())
+if (name == "ali" and age > 30) or (name != "ali" and age < 20): print("ok")
+else: print("no")
